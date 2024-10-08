@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Forms 1</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <h1 class="title">Credit card details</h1>
+                <div class="containerForm">
+                    <form class="formCard">
+                        <label
+                        for="ccn"
+                        class="textForm"
+                        >Card Number</label>
+                        <input
+                        class="inputFormCard blockFormCard"
+                        id="ccn" type="tel"
+                        inputmode="numeric"
+                        pattern="[0-9\s]{13,19}"
+                        autocomplete="cc-number"
+                        maxlength="19"
+                        placeholder="1234 5678 9012 3456"
+                        >
+                        <label
+                        for="nameCard"
+                        class="textForm"
+                        >Name On Card</label>
+                        <input
+                        class=" inputFormCard blockFormCard"
+                        type="text"
+                        id="nameCard"
+                        placeholder="Name Surname"
+                        required>
+                        <div class="formBlockDateCard">
+                            <div class="blocked ">
+                                <label
+                            for="ccn"
+                            class="textForm"
+                            >Card Number</label>
+                            <input
+                            class="inputFormCard blockFormCard"
+                            id="ccn" type="tel"
+                            inputmode="numeric"
+                            pattern="[0-9\s]{13,19}"
+                            autocomplete="cc-number"
+                            maxlength="19"
+                            placeholder="1234 5678 9012 3456"
+                            >
+                            </div>
+                            <div class="blocked blockedBottom">
+                                <input
+                                class="inputFormCard blockFormCard"
+                                id="ccn" type="tel"
+                                inputmode="numeric"
+                                pattern="[0-9\s]{13,19}"
+                                autocomplete="cc-number"
+                                maxlength="19"
+                                placeholder="1234 5678 9012 3456"
+                                >
+                            </div>
+                            <div class="blocked ">
+                                <label
+                                for="ccn"
+                                class="textForm"
+                                >CVV / CVN</label>
+                                <input
+                                class="inputFormCard blockFormCard"
+                                id="ccn" type="password"
+                                inputmode="numeric"
+                                pattern="[0-9\s]{13,19}"
+                                autocomplete="cc-number"
+                                maxlength="19"
+                                placeholder="***"
+                                >
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
